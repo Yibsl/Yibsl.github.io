@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Entry Form</h1>
+        <form id="dataForm">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="weight">Gewicht:</label>
+            <input type="text" id="weight" name="weight" required>
+
+            <label for="size">Größe:</label>
+            <input type="text" id="size" name="size" required>
+
+            <label for="time">Zeit:</label>
+            <input type="text" id="time" name="time" required>
+
+            <button type="button" onclick="submitData()">Daten speichern</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
