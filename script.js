@@ -20,9 +20,26 @@ function submitData() {
     .then(response => response.json())
     .then(data => {
         console.log('Data saved successfully:', data);
-        // You can handle the response as needed
+
+        // Display confirmation message
+        const confirmationMessage = document.createElement('p');
+        confirmationMessage.textContent = 'Daten wurden erfolgreich gespeichert!';
+        confirmationMessage.style.color = 'green';
+        document.getElementById('dataForm').appendChild(confirmationMessage);
+
+        // Clear form fields for additional entries
+        document.getElementById('location').value = '';
+        document.getElementById('weight').value = '';
+        document.getElementById('size').value = '';
+        document.getElementById('time').value = '';
     })
     .catch(error => {
         console.error('Error saving data:', error);
+
+        // Display error message
+        const errorMessage = document.createElement('p');
+        errorMessage.textContent = 'Fehler beim Speichern der Daten. Bitte versuche es erneut.';
+        errorMessage.style.color = 'red';
+        document.getElementById('dataForm').appendChild(errorMessage);
     });
 }
