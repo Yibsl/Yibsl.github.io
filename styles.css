@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #3f1717;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: rgb(61, 37, 37);
+    background-color: rgb(115, 133, 125);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px #42292980;
