@@ -2,16 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #3f1717;
+    background-color: #ffffff;
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: rgb(115, 133, 125);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px #13070733;
+    box-shadow: 0 0 10px #193f1f33;
 }
 
 form {
