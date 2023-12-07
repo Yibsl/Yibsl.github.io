@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="rechner">
+    <p>
+    <label>Meter</label>
+    <input id="inputFeet" type="number" placeholder="m"
+    oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+    </p>
+    <p><span id="outputMeters"></span> Döner</p>
+    </div>
+</body>
+<body>
     <div class="header">
         <h1>Welcome</h1>
     </div>
     <div class="submit">
-        <button type="button" onclick="window.location.href = 'List.html';">Daten speichern</button>
+        <button type="button" onclick="window.location.href = 'List.html';">Daten hinzufügen</button>
     </div>
     <div class="login">
-        <button type="button" onclick="submitData()">Login</button>
+        <button type="button">Login</button>
     </div>
     <script src="script.js"></script>
 </body>
