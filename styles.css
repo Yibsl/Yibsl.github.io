@@ -1,42 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: atkinson, Arial, sans-serif;
+    text-shadow: #19ff3b39;
+    color: #19ff3bc5;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #1b0f0e;
 }
 button {
     display: block;
 }
-
-.rechner {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #193f1f33;
-}
-
-.login  {
-    max-width: 10%;
-    margin: auto;
-    position: absolute;
-    right: 10%;
-    top: 10%;
-}
-.submit  {
-    position: fixed;
-  left: 50%;
-  bottom: 40%;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-}
-.header{
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -45,3 +17,35 @@ form {
 label {
     margin-bottom: 8px;
 }
+
+
+
+
+.header{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.login  {
+    max-width: 10%;
+    margin: auto;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.rechner {
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: #1b0f0e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #19ff3b39;
+}
+.submit  {
+    position: fixed;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
