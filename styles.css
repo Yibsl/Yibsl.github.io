@@ -18,9 +18,6 @@ label {
     margin-bottom: 8px;
 }
 
-
-
-
 .header{
     margin: auto;
     text-align: center;
@@ -42,10 +39,9 @@ label {
     box-shadow: 0 0 30px #19ff3b39;
 }
 .submit  {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    bottom: 40%;
     transform: translate(-50%, -50%);
-    margin: 0 auto;
+    margin: 3% auto;
 }
 
