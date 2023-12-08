@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DönerData_List</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
-<body>
+
+<body class="bg">
     <div class="header">
         <h1>Data Entry Form</h1>
     </div>
-</body>
-<body>
-    <div class="container">
+
+    <div class="rechner">
         <form id="dataForm">
             <label for="location">Location:</label>
-            <input type="text" id="location" name="location" placeholder="Location">
+            <input class="textfield" type="text" id="location" name="location" placeholder="Location">
 
             <label for="weight">Gewicht:</label>
-            <input type="text" id="weight" name="weight" placeholder="kg">
+            <input class="textfield" type="text" id="weight" name="weight" placeholder="kg">
 
             <label for="size">Größe:</label>
-            <input type="text" id="size" name="size" placeholder="cm">
+            <input class="textfield" type="text" id="size" name="size" placeholder="cm">
 
             <label for="time">Zeit:</label>
-            <input type="text" id="time" name="time" placeholder="min:sec">
-
-            <button type="button" onclick="window.location.href = 'index.html';">Daten speichern</button>
-        </form>
+            <input class="textfield" type="text" id="time" name="time" placeholder="min:sec">
+           </form>
+           <div class="submit">
+           <button class="button" type="button" onclick="window.location.href = 'index.html';">Daten speichern</button>
+            </div>
     </div>
     <script src="script.js"></script>
 </body>
