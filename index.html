@@ -7,36 +7,31 @@
     <title>DönerData_Main</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" cross   origin>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flexcard.css"
 </head>
 
 
 <body class="bg">   
 
-    <div class="header">
-        <h1>Welcome</h1>
-    </div>
+    <header class="header">
+        <nav class="nav">
 
-    <div class="rechner">
-        <p>
-            <label>Meter</label>
-            <input class="textfield" id="inputFeet" placeholder="m" oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
-        </p>
-        <p>
-            <span id="outputMeters"></span> Döner
-        </p>
-    </div>
-    
-    <div class="submit">
-        <button class="button" type="button" onclick="window.location.href = 'List.html';">Daten hinzufügen</button>
-    </div>
-
-    <div class="login">
-        <button class="button" type="button">Login</button>
-    </div>
+            <ul>
+                <li class="current"><a href="#">Profil</a></li>
+                <li><a href="umrechnen.html">Umrechnen</a></li>
+                <li><a href="#">Add</a></li>
+                <li><a href="#">Stats</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Tutorial</a></li>
+                <li><a href="#">Settings</a></li>                    
+            </ul>
+            
+        </nav>
+    </header>
 
     <script src="script.js"></script>
 </body>
